@@ -128,6 +128,23 @@ i:hover {
   margin: auto;
   }
 
-  .ligne>img {
+.ligne>img {
     margin: 10px;
     }
+
+footer{
+  margin-top: 520px;
+  border: 1px solid color #F2F2F2;
+  background-color: #F2F2F2;
+}
+
+footer>.gauche>li {
+  display:flex;
+  margin: 20px;
+  }
+
+.gauche {
+    list-style-type: none;
+    display:flex;
+    flex-direction:row;
+  }
